@@ -15,4 +15,4 @@ Step 3 : Client starts to wait for the process (Waits for the "ACK" message that
 Step 4 : Server receives the data size.\
 Step 5 : Server receives packages until it reaches the expected data size.\
 Step 6 : Server runs the trained model on the frame.\
-Step 7 : Server packages the processed frame and sends size of the package and the data respectively.\
+Step 7 : Server packages the processed frame and sends size of the package and the data respectively.
