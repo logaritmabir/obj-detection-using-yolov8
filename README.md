@@ -4,7 +4,7 @@ training yolo network on custom dataset
 
 train.py -> Detecting custom object via custom .pt file then detecting the objects in the aspect of monocular camera. Measure distance and tracking in addition. (~20 fps)\
 
-server.py and client.py -> Raspberry's processor is not good enough to run .pt file (even if it is quad-core, 0.9 fps). An external computer has been used to process data (server).\
+server.py and client.py -> Raspberry's processor is not good enough to run .pt file (even if it is quad-core, 0.9 fps). An external computer has been used to process data (server).
 Raspberry (client) captures frame from camera module then sends the data to server. Server runs the .pt file on the image then sends back the output to client. (~11 fps)
 
 ## Proposed protocol between of Raspberry and Server
